@@ -1,0 +1,14 @@
+@import url("../style/vendor/reset.css");
+@import url("../style/components/header.css");
+@import url("../style/components/base.css");
+@import url("../style/components/body_menu.css");
+@import url("../style/components/menu_dishes.css");
+@import url("../style/components/title_dishes.css");
+@import url("../style/components/video_block.css");
+@import url("../style/components/offer.css");
+@import url("../style/components/chef.css");
+@import url("../style/components/menu.css");
+@import url("../style/components/gallery.css");
+@import url("../style/components/book.css");
+@import url("../style/components/contact.css");
+@import url("../style/components/end.css");

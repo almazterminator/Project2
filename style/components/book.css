@@ -1,0 +1,95 @@
+.booking__form{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;        
+    justify-content: space-between;
+}
+.general__input{
+    
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.input{
+    margin-bottom: 20px;
+    width: 50%;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+.input input{
+    height: 60px;
+    width: 100%;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+    transition: all;
+}
+.input input:focus {
+    border-color: #ffcc33ff;
+}
+.input p{
+    text-transform: uppercase;
+    color: #ffcc33ff;
+    margin-bottom: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.general__button{
+    padding-top: 20px;
+}
+.general__button a{
+    transition: .4s;
+
+}
+.general__button a:hover{
+    color: white;
+    background-color: #b8b8b8;
+}
+.working__hours {
+    width: 60%;
+    padding: 30px;
+    background-color: black;
+    height: 494px;
+
+}
+.working__hours h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+.working__hours p{
+    font-size: 18px;
+    font-family: "Halant";
+    color: #B8B8B8;
+    line-height: 1.5;
+}
+.table__hours{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    border-bottom: 1px solid #b8b8b8;
+    justify-content: space-between;
+}
+.table__hours p{
+    color: white;
+    font-size: 18px;
+    font-family: "Halant";
+    font-weight: bold;
+}

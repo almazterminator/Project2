@@ -1,0 +1,38 @@
+.special__dishes{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: "Halant";
+    src: url("../../font/Halant/Halant-Light.ttf");
+}
+.title__dish{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.title__dish img{
+        margin-top: 10px;
+}
+.title__dish{
+}
+.text__dish p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 580px;
+    height: 81px;
+    color: #b8b8b8;
+    margin-bottom: 50px;
+    font-family: "Halant";
+    font-size: 18px;
+    line-height: 1.5;
+
+}

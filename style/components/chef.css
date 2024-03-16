@@ -1,0 +1,94 @@
+.title__chef{
+    display: flex;
+    flex-direction: column;
+}
+.text__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title__chef h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;   
+    margin-right: 50px;
+}
+.text__logo img{
+    margin-right: 50px;
+}
+.title__chef img{
+}
+.text__chef {   
+    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  margin: 0 320.2px;
+    max-width: 580px;
+    width: 100%;
+    height: 169;
+}
+.text__chef p{
+    display: flex;
+    color: #b8b8b8;
+    font-family: "Halant";
+    line-height: 1.4;
+    font-size: 18px;
+    text-align: center;
+
+}
+.chefs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+.chef__item{
+    width: calc(25% - 20px);
+}
+.chef__item img{
+    width: 275px;
+    height: 366px;
+    margin-bottom: 20px;
+}
+.about__chefs h3{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.about__chefs p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b8b8b8;
+    font-family: "Halant";
+    width: 275px;
+    height: 27px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+.icons i{
+    color: #ffcc33ff;   
+    transition: .4s;
+
+}
+.icons i:hover{
+    color: aliceblue
+}
+

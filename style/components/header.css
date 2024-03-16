@@ -1,0 +1,29 @@
+.header{
+  display: flex;
+  padding: 15px 160px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+
+}
+.updated-class{
+  background-color: black;
+  
+  
+}
+.header__menu img{
+  width: 40%;
+}
+.header__menu a{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 60%;
+  padding-left: 60px;
+  transition: .4s;
+  text-transform: uppercase;
+}
+.header__menu a:hover{
+  color: #ffcc33ff;
+}

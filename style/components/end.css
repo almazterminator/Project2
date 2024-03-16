@@ -1,0 +1,13 @@
+.copyright{
+    font-size: 12px;
+    font-family: "Halant";
+    color: #b8b8b8;
+    text-align: center;
+    padding: 30px 10px;
+    color: none;
+}
+.copyright a{
+    color: #b8b8b8;
+    text-decoration: underline;
+    font-family: "Halant";
+}

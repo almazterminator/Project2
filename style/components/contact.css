@@ -1,0 +1,63 @@
+.general__contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+.contact__item {
+    color: white;
+    width: 235px;
+
+}
+.contact__item h3{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact__item i{
+    color: #ffcc33ff;
+}
+
+.contact__item h3 i{
+    margin-right: 10px;
+}
+.contact__item p {
+    display: flex;
+    padding-top: 20px;
+    font-family: "Halant";
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.contact__item a{
+    display: flex;
+    color: #ffcc33ff;
+    font-weight: bold;
+    padding-top: 20px; 
+    line-height: 1.5;  
+    font-size: 18px; 
+    word-spacing: 4;
+    transition: .4s;
+}
+.contact__item a:hover{
+    color:#b8b8b8;
+}
+
+.media{
+    font-size: 25px;
+    padding-right: 70px;
+}
+.media i{
+    color: #ffcc33ff;
+    padding-left: 50px;
+    transition: .4s;
+}
+.media i:hover{
+    color: #b8b8b8;
+}
